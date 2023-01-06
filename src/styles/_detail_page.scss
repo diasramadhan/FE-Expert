@@ -1,0 +1,203 @@
+.container h2 {
+  margin: 2rem;
+}
+
+.resto-details {
+  p {
+    line-height: 1.7;
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  h3 {
+    font-size: 2rem;
+    color: orange;
+    margin-bottom: 8px;
+    letter-spacing: 0.3rem;
+  }
+
+  ul {
+    padding-inline-start: 24px;
+  }
+
+  li {
+    line-height: 1.5;
+    color: white;
+    font-size: 1.5rem;
+  }
+}
+
+.resto-info {
+  display: block;
+}
+
+.description-detail {
+  border: 1px solid #ababab;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 16px;
+}
+
+.desc__content {
+  display: grid;
+  gap: 16px;
+}
+
+.resto-img {
+  position: relative;
+  padding-bottom: 56.2%;
+
+  img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+}
+
+.info {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.main-info,
+.resto-menus {
+  border: 1px solid #ababab;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.main-info {
+  h2 {
+    margin-bottom: 16px;
+  }
+}
+
+.menus {
+  display: grid;
+  gap: 16px;
+}
+
+.review_content p {
+  color: black;
+}
+.resto-review {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 24px;
+
+  ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+  }
+}
+.review-form {
+  margin: 2rem;
+}
+.review_item,
+.review-form {
+  padding: 8px 0;
+  display: flex;
+}
+
+.reviewer_photo {
+  margin-right: 8px;
+}
+
+.review_content,
+form {
+  background-color: #ababab;
+  flex: 1;
+  padding: 16px;
+  display: block;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.review_name {
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 1.8rem;
+}
+
+.review_date {
+  font-size: 1.2rem !important;
+  color: rgb(77, 70, 70) !important;
+}
+
+input[type='text'],
+textarea {
+  padding: 16px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 2px solid #d0d0d0;
+  width: 100%;
+  transition: box-shadow 0.3s ease-in-out;
+  font-size: 2rem;
+  background-color: #3d3d3d;
+  color: white;
+
+  &:focus,
+  &:hover {
+    box-shadow: 0 4px 8px 0 #00000033;
+    outline: none;
+  }
+}
+
+button[type='submit'] {
+  background-color: #ff5800;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 16px 20px;
+  font-size: 0.95em;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.2s ease-in-out;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 2rem;
+
+  &:active {
+    background-color: #3d3d3d;
+  }
+}
+
+// for load more review button item.
+#load-more {
+  display: block;
+  margin: 16px auto 24px;
+  background-color: transparent;
+  border: 1px solid orange;
+  border-radius: 8px;
+  color: orange;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+
+  &:active {
+    background-color: orange;
+    color: white;
+  }
+}
+
+// #fav-button {
+//   font-size: 36px;
+//   position: fixed;
+//   bottom: 16px;
+//   right: 16px;
+//   background-color: orange;
+//   color: white;
+//   border: 0;
+//   border-radius: 50%;
+//   width: 55px;
+//   height: 55px;
+//   cursor: pointer;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }

@@ -1,0 +1,53 @@
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  header .app-bar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  header .app-bar #menu-btn {
+    display: inline-block;
+  }
+
+  #menu-btn.fa-times {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+  }
+
+  header .app-bar nav {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    border-top: 0.1rem solid #ababab;
+    border-bottom: 0.1rem solid #ababab;
+    background-color: #212529;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  header .app-bar nav.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  header .app-bar nav a {
+    display: block;
+    margin: 2rem;
+  }
+
+  #maincontent .resto-list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}

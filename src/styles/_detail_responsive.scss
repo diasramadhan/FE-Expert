@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+  /* --- Resto detail --- */
+  resto-details p {
+    font-size: 0.95em;
+  }
+
+  .info {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .main-info {
+    order: 2;
+  }
+
+  .menus {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* --- Resto detail --- */
+  .desc__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .thumbnail {
+    order: 1;
+  }
+}

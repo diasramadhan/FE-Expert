@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+.solid {
+  background-color: rgba($color: #212529, $alpha: 1);
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: transparent;
+
+  .app-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 .navbar-brand {
+      letter-spacing: 0.3rem;
+      font-size: 2.5rem;
+      color: whitesmoke;
+      font-family: 'Viga', sans-serif;
+      padding: 1.2rem 1.5rem;
+    }
+
+    nav a {
+      font-size: 2rem;
+      color: rgb(236, 230, 230);
+      padding: 1.2rem 1.5rem;
+    }
+
+    nav a:hover {
+      color: orange;
+    }
+
+    #menu-btn {
+      cursor: pointer;
+      color: white;
+      font-size: 2.5rem;
+      display: none;
+      padding: 2rem;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+footer {
+  padding: 3rem;
+  background-color: black;
+}
+.f-column {
+  display: flex;
+  flex-direction: column;
+
+  .f-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+.f-column .f-row > div {
+  flex: 1;
+  padding: 0 5%;
+}
+
+.f-column .f-row a {
+  display: block;
+  text-decoration: none;
+  color: #6e6e6e;
+  padding: 1.3rem 1.5rem;
+  font-size: medium;
+}
+
+.f-column .f-row a:hover {
+  color: white;
+}
+
+.f-column .f-row h2 {
+  color: white;
+}
+
+.f-column .f-row p {
+  color: white;
+}
+
+.copy-right {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  font-size: small;
+}
+.copy-right span {
+  color: red;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+}
+.follow-me,
+.about-us,
+.support {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 576px) {
+  .f-column .f-row > div {
+    flex-basis: 100%;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .f-column .f-row > div {
+    flex-basis: 30%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .f-column .f-row > div {
+    flex-basis: 0%;
+  }
+}

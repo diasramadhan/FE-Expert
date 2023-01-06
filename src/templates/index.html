@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Warelog - Warex Resto Catalog A restaurant catalog application."
+    />
+    <meta name="theme-color" content="#ffa500" />
+
+    <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+    <link rel="manifest" href="./app.webmanifest" />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="./images/icons/favicon.ico" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"
+    />
+
+    <title>Warelog | Dias Nur Ramadhan</title>
+  </head>
+  <body>
+    <a href="#maincontent" class="skip-link">Menuju ke konten</a>
+
+    <!-- ========== Start Header Navigation ========== -->
+    <header>
+      <section class="app-bar">
+        <h1>
+          <a href="/" class="navbar-brand" id="a">Warelog</a>
+        </h1>
+
+        <a id="menu-btn" class="fas fa-bars icon" tabindex="0"></a>
+
+        <nav>
+          <a href="/">Home</a>
+          <a href="#/favorite">Favorite</a>
+          <a href="https://www.linkedin.com/in/dias-nur-ramadhan-00558b211/" target="_blank"
+            >About Us</a
+          >
+        </nav>
+      </section>
+    </header>
+    <!-- ========== End Header Navigation ========== -->
+
+    <!-- ========== Start Hero Section ========== -->
+    <div class="hero-element">
+      <picture>
+        <source media="(max-width: 600px)" srcset="./images/heros/hero-image_2-small.jpg" />
+        <source type="image/webp" srcset="./images/heros/hero-image_2.webp" />
+        <img src="./images/heros/hero-image_2-large.jpg" alt="" class="hero-bg" />
+      </picture>
+      <section class="hero-description">
+        <div class="hero-wrap">
+          <h1 class="title">Temukan Restoran <br />Favoritemu</h1>
+          <p class="description">
+            Warelog adalah sebuah website katalog restoran, jelajahi berbagai cita rasa restoran
+            yang dapat anda akses secara gratis, dapat anda gunakan sebagai alternatif referensi
+            mencari restoran.
+          </p>
+        </div>
+      </section>
+    </div>
+    <!-- ========== End Hero Section ========== -->
+
+    <!-- ========== Start Main Content ========== -->
+    <main id="maincontent" tabindex="0"></main>
+    <!-- ========== End Main Content ========== -->
+
+    <!-- ========== Start Footer App ========== -->
+    <footer-app />
+    <!-- ========== End Footer App ========== -->
+  </body>
+</html>
